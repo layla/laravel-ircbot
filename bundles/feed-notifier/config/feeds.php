@@ -2,16 +2,36 @@
 
 return array(
 
-	'laravel-forum' => array(
-		'message' => 'Forum Activity: (:title) (:link)',
-		'url' => 'http://forums.laravel.com/extern.php?action=feed&type=atom',
-		'channel' => '#laravel',
+	'laravel-github-core' => array(
+		'message' => '(:title) (:link)',
+		'url' => 'https://github.com/layla/core/commits/master.atom',
+		'channel' => '#layla',
 	),
 
-	'laravel-github' => array(
+	'laravel-github-admin' => array(
 		'message' => '(:title) (:link)',
-		'url' => 'https://github.com/LaravelBot.private.atom?token=a6798a59cc4ebefb3415dc938a6ec1c2',
-		'channel' => '#laravel',
+		'url' => 'https://github.com/layla/admin/commits/master.atom',
+		'channel' => '#layla',
+	),
+
+	'laravel-github-client' => array(
+		'message' => '(:title) (:link)',
+		'url' => 'https://github.com/layla/client/commits/master.atom',
+		'channel' => '#layla',
+	),
+
+
+	'laravel-github-components' => array(
+		'message' => '(:title) (:link)',
+		'url' => 'https://github.com/layla/components/commits/master.atom',
+		'channel' => '#layla',
+	),
+
+
+	'laravel-github-domain' => array(
+		'message' => '(:title) (:link)',
+		'url' => 'https://github.com/layla/domain/commits/master.atom',
+		'channel' => '#layla',
 	),
 
 	// This feed doesn't validate :(

@@ -22,7 +22,7 @@ Message::listen('ping', function($message) use (&$updated)
 
 	if ( ! Cache::has('bundle-rss'))
 	{
-		$rss = file_get_contents("https://github.com/layla/core/commits/master.atom");
+		$rss = file_get_contents("http://bundles.laravel.com/rss");
 		// Unescaped &, Unknown entities, i.e., auml
 		$rss = preg_replace('/&(?!amp;|quot;|lt;|gt;|\d{1,3};)/', '&amp;', $rss);
 
