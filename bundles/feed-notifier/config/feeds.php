@@ -34,11 +34,4 @@ return array(
 		'channel' => '#layla',
 	),
 
-	// This feed doesn't validate :(
-	// 'laravel-bundles' => array(
-	// 	'message' => 'New Bundle: (:title) (:link)',
-	// 	'url' => 'http://bundles.laravel.com/rss',
-	// 	'channel' => '#laravel',
-	// ),
-
 );
