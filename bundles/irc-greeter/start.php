@@ -14,13 +14,11 @@ use IRC\Message;
 
 // List of users to greet, in lowercase
 $greet = array(
-	'daylerees',
-	'ericbarnes',
-	'jasonlewis',
-	'ianlandsman',
-	'phillsparks',
-	'shawnmccool',
-	'taylorotwell',
+	'rojtjo',
+	'vespakoen',
+	'benjam_es',
+	'nickstr',
+	'atno'
 );
 
 $greeter = function($message) use ($greet)

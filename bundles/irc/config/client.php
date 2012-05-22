@@ -30,7 +30,7 @@ return array(
 	 * The IRC user's name
 	 * @var string
 	 */
-	'name' => 'Laravel Bot',
+	'name' => 'Layla',
 
 	/**
 	 * The password of the IRC Server
